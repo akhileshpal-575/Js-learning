@@ -25,3 +25,15 @@ let obj ={
 const myfunction = function(){
     console.log("hello world")
 }
+
+// +++++++++++++++++++++++
+
+// stack (primitive), heap (non-primitive)
+ 
+let user = {
+    email:"user@gmail.com"
+}
+console.log(user.email)
+// email got memory in heap 
+// user get in stack that referenced email availabl in heap
+
